@@ -1,11 +1,30 @@
 # Heatlth Hub
 
+
+<p align="center">
+  <a href="#">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#">Requirments</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#">Install</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#">Running the Project</a>
+</p>
+
+---
+
+## 🚀 About the Project
+
 HealthHub is a hospital dashboard project that provides users with a comprehensive overview of different hospitals. The dashboard includes a table that displays important information about each hospital, including its name, ratings, address, and number of patients. This information can be sorted and filtered to help users find the hospital that best meets their needs.
 
 ![Screenshot of Application](./HealthHub.jpg)
 
 ---
-## Requirements
+## 💻 Technologies
+- [Express](https://expressjs.com/)
+- [EJS](https://ejs.co/#promo)
+- [VS Code](https://code.visualstudio.com) and [Prettier RC](https://github.com/prettier/prettier)
+
+---
+## 🧰 Requirements
 
 For development, you will only need Node.js and a node global package, p, installed in your environement.
 
@@ -44,13 +63,15 @@ After installing node, this project will need pnpm too, so just run the followin
 
 ---
 
-## Install
+## ⚙️ Install
+After installing pnpm run the following commands to get started.
 
     $ git clone https://github.com/BrinsilElias/HealthHub.git
     $ cd HealthHub
     $ pnpm install
 
-## Running the project
+##  Running the project
+After installing all the node modules run the below command to start the server. The server runs on port 8080. So after starting the server visit http://localhost:8080.
 
     $ pnpm start
 
