@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./add.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="./logo.png" type="image/x-icon">
+
+        <!-- Script -->
+        <script src="/form.js" async></script>
+
+        <title>HealthHub</title>
+    </head>
+    <body class="">
+        <nav class="container flex">
+            <div class="logo-wrapper">
+                <div class="logo"></div>
+                <h1>HealthHub</h1>
+            </div>
+            <div class="back">
+                <button class="btn btn-back" data-icon="back-icon" onclick="location.href='/'">Back</button>
+            </div>
+        </nav>
+        <main class="container">
+            <div class="form flex">
+                <!-- Sign Up -->
+                <div class="card">
+                    <div class="form-header border-btm grid">
+                        <p class="title">Add Hospital Details</p>
+                    </div>
+                    <div class="form-body">
+                        <form action="/" method="POST" class="grid">
+                            <div id="name-wrapper" class="wrapper grid">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="St. John's Hospital">
+                            </div>
+                            <div id="ratting-wrapper" class="wrapper grid">
+                                <label for="ratings">Ratings (out of 5)</label>
+                                <input type="text" id="ratings" name="ratings" placeholder="4.5">
+                            </div>
+                            <div id="count-wrapper" class="wrapper grid">
+                                <label for="p_count">No. of Patients</label>
+                                <input type="number" id="p_count" name="count" placeholder="100">
+                            </div>
+                            <div id="address-wrapper" class="wrapper grid">
+                                <label for="address">Address</label>
+                                <textarea id="address" rows="4" name="address" placeholder="Address"></textarea>
+                            </div>
+                            <button class="btn btn-secondary" type="button" onclick="location.href='/'">Cancel</button>
+                            <button class="btn btn-primary" id="signup-button" type="submit">Add Details</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Sign Up -->
+            </div>
+        </main>
+    </body>
+</html>
