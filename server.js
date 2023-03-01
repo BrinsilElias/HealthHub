@@ -2,11 +2,8 @@ const express = require('express')
 const app = express()
 const port = 8080
 const database = require('./database')
-const bodyParser = require('body-parser'); // Import body-parser middleware
 app.set("view engine", "ejs")
 
-// Use body-parser middleware to parse form data
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 
 // Root route for 
