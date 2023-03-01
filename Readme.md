@@ -46,8 +46,8 @@ After installing node, this project will need pnpm too, so just run the followin
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
+    $ git clone https://github.com/BrinsilElias/HealthHub.git
+    $ cd HealthHub
     $ pnpm install
 
 ## Running the project
