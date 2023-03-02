@@ -26,13 +26,13 @@ HealthHub is a hospital dashboard project that provides users with a comprehensi
 ---
 ## 🧰 Requirements
 
-For development, you will only need Node.js and a node global package, p, installed in your environement.
+For development, you will only need Node.js and a node global package installed in your environement.
 
 ### Node
 - #### Node installation on Windows
 
   Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+  Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
 - #### Node installation on Ubuntu
 
@@ -52,26 +52,22 @@ If the installation was successful, you should be able to run the following comm
     $ npm --version
     6.1.0
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-
-    $ npm install npm -g
-
 ### pnpm installation
-After installing node, this project will need pnpm too, so just run the following command.
+After installing node, this project will need pnpm too, so run the following command to install pnpm globally.
 
       $ npm install -g pnpm
 
 ---
 
 ## ⚙️ Install
-After installing pnpm run the following commands to get started.
+After installing pnpm run the following commands to clone the repo and install all the dependencies that is used for this application.
 
     $ git clone https://github.com/BrinsilElias/HealthHub.git
     $ cd HealthHub
     $ pnpm install
 
 ##  Running the project
-After installing all the node modules run the below command to start the server. The server runs on port 8080. So after starting the server visit http://localhost:8080.
+After installing all the node modules run the below command to start the server. The server runs on port 8080 so after starting the server visit http://localhost:8080.
 
     $ pnpm start
 
